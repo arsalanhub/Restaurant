@@ -24,3 +24,8 @@ D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\obj\Debug\net6.
 D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\obj\Debug\net6.0\RestaurantService.pdb
 D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\obj\Debug\net6.0\RestaurantService.genruntimeconfig.cache
 D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\obj\Debug\net6.0\ref\RestaurantService.dll
+D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\bin\Debug\net6.0\Microsoft.Bcl.HashCode.dll
+D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\obj\Debug\net6.0\RestaurantService.csproj.CopyComplete
