@@ -1,0 +1,41 @@
+﻿@model Menu
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2>Edit Menu</h2>
+            <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control"/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" class="form-control"/>
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <select asp-for="Category">
+                <option value="none" selected disabled hidden>Select a Category</option>
+                <option name="food">Food</option>
+                <option name="ffood">Fast Food</option>
+                <option name="beverage">Beverage</option>
+            </select>
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-success" style="width:150px">Update</button>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-info" style="width:150px">
+            Back To Home
+        </a>
+        <a asp-controller="Menu" asp-action="Index" class="btn btn-danger" style="width:150px">
+            Back To Menu
+        </a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

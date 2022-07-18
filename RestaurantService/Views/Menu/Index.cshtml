@@ -16,7 +16,7 @@
                         Category: <span class="badge bg-secondary">@obj.Category</span>
                         @*<span>Category: </span>*@
                     </p>
-                    <button class="btn btn-info btn-sm">Edit</button>
+                    <a class="btn btn-info btn-sm" asp-controller="Menu" asp-action="Edit" asp-route-id="@obj.Id">Edit</a>
                     <button class="btn btn-danger btn-sm">Delete</button>
                  </div>
            </div>

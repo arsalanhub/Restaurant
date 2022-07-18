@@ -35,5 +35,27 @@ namespace RestaurantService.Controllers
             }
             return View(obj);
         }
+
+        // GET
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id == 0) return NotFound();
+            var menuFromDb = _db.Menus.Find(id);
+            if (menuFromDb == null) return NotFound();
+            return View(menuFromDb);
+        }
+        // POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Menu obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Menus.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
     }
 }
