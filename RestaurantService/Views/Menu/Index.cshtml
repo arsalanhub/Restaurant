@@ -17,7 +17,7 @@
                         @*<span>Category: </span>*@
                     </p>
                     <a class="btn btn-info btn-sm" asp-controller="Menu" asp-action="Edit" asp-route-id="@obj.Id">Edit</a>
-                    <button class="btn btn-danger btn-sm">Delete</button>
+                    <a class="btn btn-danger btn-sm" asp-controller="Menu" asp-action="Delete" asp-route-id="@obj.Id">Delete</a>
                  </div>
            </div>
         </div>
