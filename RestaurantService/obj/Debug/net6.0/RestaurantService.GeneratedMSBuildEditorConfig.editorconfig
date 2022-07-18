@@ -11,7 +11,7 @@ build_property.RootNamespace = RestaurantService
 build_property.ProjectDir = D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Veersa\Complete guide to ASP.NET\Restaurant\RestaurantService
 build_property._RazorSourceGeneratorDebug = 
 
