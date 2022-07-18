@@ -11,9 +11,10 @@
            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
               <div class="card-header">@obj.Name</div>
                  <div class="card-body">
-                    <h6 class="card-subtitle">Price: @obj.Price</h6>
+                    <h6 class="card-subtitle">Price: ₹@obj.Price</h6>
                     <p class="card-text">
-                        <span>Category: @obj.Category</span>
+                        Category: <span class="badge bg-secondary">@obj.Category</span>
+                        @*<span>Category: </span>*@
                     </p>
                     <button class="btn btn-info btn-sm">Edit</button>
                     <button class="btn btn-danger btn-sm">Delete</button>

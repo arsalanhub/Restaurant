@@ -15,8 +15,13 @@
             <input asp-for="Price" class="form-control"/>
         </div>
         <div class="mb-3">
-            <label asp-for="Category"></label>
-            <input asp-for="Category" class="form-control"/>
+            <select asp-for="Category">
+                <option value="none" selected disabled hidden>Select a Category</option>
+                <option name="food">Food</option>
+                <option name="ffood">Fast Food</option>
+                <option name="beverage">Beverage</option>
+            </select>
+            
         </div>
         <button type="submit" class="btn btn-success" style="width:150px">Add</button>
         <a asp-controller="Home" asp-action="Index" class="btn btn-info" style="width:150px">
