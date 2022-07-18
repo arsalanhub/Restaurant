@@ -17,5 +17,19 @@ namespace RestaurantService.Controllers
             IEnumerable<Menu> objCategoryList = _db.Menus;
             return View(objCategoryList);
         }
+        // GET
+        public IActionResult Create()
+        {
+            return View();
+        }
+        // POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Menu obj)
+        {
+            _db.Menus.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
