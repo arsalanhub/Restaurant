@@ -27,10 +27,13 @@ namespace RestaurantService.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Menu obj)
         {
-            
-            _db.Menus.Add(obj);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            if(ModelState.IsValid)
+            {
+                _db.Menus.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
         }
     }
 }
