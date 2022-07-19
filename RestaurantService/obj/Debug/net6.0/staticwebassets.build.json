@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6lkO7nhvp1DjVvXPyGNbp5DUdmvOtPZztpp6KGXUByE=",
+  "Hash": "/yYWcyiGrc+zmZkKI102cdCS2MB24zDsV1y5CXCfh24=",
   "Source": "RestaurantService",
   "BasePath": "_content/RestaurantService",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Veersa\\Complete guide to ASP.NET\\Restaurant\\RestaurantService\\wwwroot\\img\\home\\restaurant.jpg",
+      "SourceId": "RestaurantService",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Veersa\\Complete guide to ASP.NET\\Restaurant\\RestaurantService\\wwwroot\\",
+      "BasePath": "_content/RestaurantService",
+      "RelativePath": "img/home/restaurant.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\home\\restaurant.jpg"
     },
     {
       "Identity": "D:\\Veersa\\Complete guide to ASP.NET\\Restaurant\\RestaurantService\\wwwroot\\js\\site.js",
